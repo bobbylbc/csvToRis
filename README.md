@@ -6,7 +6,11 @@ ris format reference: https://en.wikipedia.org/wiki/RIS_(file_format)
 
 ## How to use?
 - readFirstLineOfFile.js -> get all the headers of the files you want to process from a directory
+    - 1) Edit readFirstLineOfFile with the correct source directory
+    - 2) Run "node readFirstLineOfFile.js"
 - csvToRis.js -> manipulate all your csv files from a directory and generate ris format files base in the results folder
+    - 1) Edit csvToRis with the correct source directory
+    - 2) Run "node csvToRis.js"
 
 ## Disclaimer
 This is still very raw and will likely fail if non-csv files are passed in
