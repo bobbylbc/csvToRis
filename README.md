@@ -5,8 +5,8 @@ This is a mini project to help those who wants a simple software to converts csv
 ris format reference: https://en.wikipedia.org/wiki/RIS_(file_format)
 
 ## How to use?
-readFirstLineOfFile.js -> get all the headers of the files you want to process from a directory
-csvToRis.js -> manipulate all your csv files from a directory and generate ris format files base in the results folder
+- readFirstLineOfFile.js -> get all the headers of the files you want to process from a directory
+- csvToRis.js -> manipulate all your csv files from a directory and generate ris format files base in the results folder
 
 ## Disclaimer
 This is still very raw and will likely fail if non-csv files are passed in
